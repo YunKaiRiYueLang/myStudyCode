@@ -30,7 +30,7 @@ def hitMe():
     if freq > 4:
         # messagebox.showinfo('title', '内容 你已经点击超过4次')
         #from tkinter import messagebox 需要加上
-        messagebox.showerror('title','error')
+        messagebox.showerror('title','error 你已经点击超过4次')
 
 
 b = Button(window, text='hit me', font=('Arial', 12),
